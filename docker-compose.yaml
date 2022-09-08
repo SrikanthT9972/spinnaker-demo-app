@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashuapp1:
+    image: ashuapp:v1
+    build: .
+    container_name: ashuc11
+    ports:
+      - "1233:80"
